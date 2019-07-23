@@ -1,0 +1,9 @@
+[submodule "consignment-cli"]
+	path = consignment-cli
+	url = https://github.com/dariosantos86/shippy-cli-consignment
+[submodule "consignment-service"]
+	path = consignment-service
+	url = https://github.com/dariosantos86/shippy-service-consignment
+[submodule "vessel-service"]
+	path = vessel-service
+	url = https://github.com/dariosantos86/shippy-service-vessel
