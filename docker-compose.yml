@@ -30,7 +30,7 @@ services:
     build: ./user-cli
 
   user-service:
-    build: ./shippy-service-user
+    build: ./user-service
     ports:
       - 50053:50051
     environment:
