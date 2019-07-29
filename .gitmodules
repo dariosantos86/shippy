@@ -7,3 +7,9 @@
 [submodule "vessel-service"]
 	path = vessel-service
 	url = https://github.com/dariosantos86/shippy-service-vessel
+[submodule "user-service"]
+	path = user-service
+	url = https://github.com/dariosantos86/shippy-service-user
+[submodule "user-cli"]
+	path = user-cli
+	url = https://github.com/dariosantos86/shippy-cli-user

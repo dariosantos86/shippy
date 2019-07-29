@@ -20,3 +20,23 @@ services:
       - 50052:50051
     environment:
       MICRO_ADDRESS: ":50051"
+
+  datastore:
+    image: mongo
+    ports:
+      - 27017:27017
+
+  user-cli:
+    build: ./user-cli
+
+  user-service:
+    build: ./shippy-service-user
+    ports:
+      - 50053:50051
+    environment:
+      MICRO_ADDRESS: ":50051"
+
+  database:
+    image: postgres
+    ports:
+      - 5432:5432
